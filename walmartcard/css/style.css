@@ -1118,7 +1118,7 @@ width: 100%;
        font-size: 32px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #505665;
+    color: #3c3c3c;
     text-align: center;
     margin-bottom: 50px;
         margin-top: 40px;
@@ -2173,6 +2173,10 @@ p.headboxdescri {
 }
 .full-bg-hero {
   background-color:#eaf7ff;
+  padding-bottom: 80px;
+}
+.full-bg-hero.heders {
+  background-color:#c8e7fa;
   padding-bottom: 80px;
 }
 .infopageh {

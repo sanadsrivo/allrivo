@@ -465,6 +465,10 @@ button:focus {
   padding-bottom: 40px;
 }
 
+.logo img {
+width: 100%;
+    max-width: 170px;
+}
 @media (max-width: 991px) {
   #topnav {
     padding-top: 0px;
@@ -2089,7 +2093,7 @@ p.headboxdescri {
     margin-top: 36px;
     min-height: 446px;
     border-radius: 6px;
-    border: 1px solid #e4d6d6;
+    border: 1px solid #ffffff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -2168,7 +2172,7 @@ p.headboxdescri {
     margin-bottom: 30px;
 }
 .full-bg-hero {
-  background-color:#c8e7fa;
+  background-color:#eaf7ff;
   padding-bottom: 80px;
 }
 .infopageh {
@@ -2280,7 +2284,7 @@ p.headboxdescri {
  .formboxa h3 {
   margin: 11px 0px;
   line-height: 30px;
-  color: #6e6e71;
+  color: #3c3c3c;
   font-weight: 400;
   font-size: 22px;
 }

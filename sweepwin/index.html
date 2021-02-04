@@ -39,9 +39,64 @@
    <link href="css/style.css" rel="stylesheet" type="text/css" />
    <!-- /Style Css -->
    <!-- /All css -->
+   <style type="text/css">
+       body.topalert {
+      padding-top: 80px;
+      margin-top: 80px;
+      }
+       
+      body.topalert .success.alrt {
+      display: table;
+      background-color: #50bb50;
+      }
+      body.topalert .success.alrt span {
+         display: table-cell;
+         vertical-align: middle;
+         width: 100%;
+      }
+      body.topalert .failed.alrt {
+      display: table;
+      background-color: #ff4e4e;
+      }
+      body.topalert .failed.alrt span {
+         display: table-cell;
+         vertical-align: middle;
+         width: 100%;
+      }
+      body.topalert header {
+      top: 80px !important;}
+      body.topalert header.nav-sticky {
+      top: 0px !important;
+      }
+
+      body.topalert header.nav-sticky {
+      top: 0px !important;
+      }
+      .alrt {
+      display: none;
+      z-index: 99999;
+      height: 80px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      color: #fff;
+      line-height: 20px;
+      padding-right: 15px;
+      padding-left:  15px;
+      }
+      .failed.alrt span, .success.alrt span {
+         display: none;
+      }
+   </style>
 </head>
 
-<body>
+<body class="topalert">
+  <div class="success alrt"><span>Thank you For submiting your detail.</span></div>
+  <div class="failed alrt"><span>Sorry your detail is not submiting. Please try again</span></div>
    <!-- PreLoader -->
    <div id="preloader">
       <div id="status">

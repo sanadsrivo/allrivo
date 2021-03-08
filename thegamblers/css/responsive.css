@@ -1,0 +1,272 @@
+@media (max-width: 768px) { 
+/* TOP match bidding */
+	.mobile-top {    
+		width: 100%;
+		margin: auto;
+		position: relative; 
+		padding:0 15px;
+		display: inline-block;
+	}
+	.top-line .mobile-top  .item {
+        width:100%; 
+        float: left;
+        margin-left: 3px;
+        padding:0px;         
+        height: 70px;
+        min-width: 165px;
+        margin-bottom: 4px;
+    } 
+    .binding-date {    
+    	line-height: 36px;    
+	}
+    .binding-date span {
+	    width:auto;
+	    display: inline;
+	}
+
+	/*base-dropdown -14*/
+	.base-dropdown {
+		width: 100%;
+		position: relative;
+		left: 0;
+		top: 0;
+		border: 0;
+		bottom: 0;
+		right: 0;
+		padding: 5px 15px;
+
+    }
+    .base-button {
+    	width: 100%;
+		position: relative;						
+		left: 0;
+		top: 0;
+		border: 0;
+		bottom: 0;
+		right: 0;
+		padding: 5px 15px;
+    }
+    /*only for mobile navigation*/    
+	.slyder-nav,.slyder-nav li{
+		-sand-transition:all linear .2s
+	}
+	.slyder-nav .s-back,.slyder-nav a.s-link{
+		font-size:16px;
+		line-height:40px;
+		margin:0;
+	}
+	.slyder-wrapper{
+		background-color:rgba(0,0,0,.05);
+		overflow:hidden;
+		position:relative
+	}
+	.slyder-nav{
+		border-bottom:1px solid rgba(0,0,0,.1);
+		left:0;
+		list-style:none;
+		margin:0;
+		padding:0;
+		position:relative;
+		-webkit-transition:all linear .2s;
+		-moz-transition:all linear .2s;
+		-ms-transition:all linear .2s;
+		-o-transition:all linear .2s;
+		transition:all linear .2s
+	}
+	.slyder-nav li{border-top:1px solid rgba(0,0,0,.1);
+		-webkit-transition:all linear .2s;
+		-moz-transition:all linear .2s;
+		-ms-transition:all linear .2s;-o-transition:all linear .2s;
+		transition:all linear .2s
+	}
+	.slyder-nav li:first-child{
+		border-top:0
+	}
+	.slyder-nav h3{
+		margin:0
+	}
+	.slyder-nav .s-back{
+		background-color:rgba(0,0,0,.1)
+	}
+	.slyder-nav a.s-link{
+		color:#000;
+		display:block;
+		padding:0 10px;
+		text-decoration:none
+	}
+	.slyder-nav .s-content{
+		padding:10px
+	}
+	.slyder-nav .s-content p{
+		font-size:14px;
+		line-height:20px;
+		margin:10px 0
+	}
+	.slyder-nav .s-content ol,.slyder-nav .s-content ul{
+		list-style:disc;
+		padding-left:20px
+	}
+	.slyder-nav .s-content ol li,.slyder-nav .s-content ul li{
+		border:none;
+		height:auto;
+		margin:0
+	}
+	.slyder-nav .s-content ol{
+		list-style:decimal
+	}
+	.slyder-nav .s-hidden{
+		left:100%;
+		list-style:none;
+		margin:0;
+		padding:0;
+		position:absolute;
+		top:0;
+		visibility:hidden;
+		width:100%}
+	.slyder-nav li.s-current>.s-hidden{
+		visibility:visible
+	}
+    /*END Onlly FOr Mobile navigation*/
+    .carousel-control.left {
+    right: auto;
+    left: 0px;}
+    .carousel-control.right {
+    right: 0px;
+    left: auto;}
+/*END*/
+}
+@media (min-width: 768px) { 
+	.mobile-top {    
+		margin: 0 135px;
+		position: relative; 
+	}
+	/*only for desktop and laptop and ipad navigation*/ 
+	nav {
+		background:#fff;
+	}
+	/*Header desing start*/
+/*.slyder-wrapper        
+.slyder-nav
+.s-item .s-link .s-hidden .s-back{}*/
+
+
+
+nav {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+ul.nav-1 {
+	list-style: none;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.s-back {
+	display: none;
+}
+ul.nav-1:hover .nav-sub {
+	display: block;
+}
+.nav-sub {
+	display: none;
+}
+ul.nav-1 {}
+ul.nav-1 li.s-item {}
+ul.nav-1 li.s-item a.s-link {}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+  font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+.header-demo {
+	height: 75px;
+	width: 100%;
+}
+
+/*END*/
+	/*END*/
+}
